@@ -65,6 +65,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'hello-world-app'
+          app-name: 'salmon-smoke'
           package: ./dist/hello-world-app
           
