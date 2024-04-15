@@ -66,6 +66,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'salmon-smoke'
-          slot-name: 'Production'
-          package: .
+          publish-profile: $
+          package: ./dist/hello-world-app
           
